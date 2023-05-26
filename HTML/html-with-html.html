@@ -1,0 +1,226 @@
+<!-- Html BODY context -->
+<!DOCTYPE html> <!-- Type of Document -->
+<html lang="en"> <!--  root element to describe language of document as attribute -->
+
+<head> <!-- element contains machine-readable information about the document, 
+        like its title, scripts, and style sheets.-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title> <!-- Tittle of HTML doc shown on tab template on browser -->
+</head>
+<!--  body element represents the content of an HTML document.
+        There can be only one <body> element in a document. -->
+
+<body>
+
+</body>
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">Heading elements</h3>
+
+<h1>Main Heading</h1>
+<h2>heading</h2>
+<h3>heading</h3>
+<h4>heading</h4>
+<h5>heading</h5>
+<h6>heading</h6>
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">Paragraph Element. Paragraphs are block-level elements.
+        Paragraphs are usually represented in visual media as blocks of
+        text separated from adjacent blocks by blank lines</h3>
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam laborum dicta officia, numquam eligendi,
+        illoexcepturi minus porro aliquam molestiae voluptatem nulla atque natus ullam voluptates at veniam sapiente
+        fugiat.
+</p>
+
+_________________________________________________________________________________________________________________________________________________________________________
+
+<h3 class="description" style="color: chocolate;">Italic element used in the where Italic structure been used.</h3>
+<p><i> Lorem ipsum dolor sit amet.</i></p>
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">Bold element used in the where Bold structure been used.</h3>
+<p><b> Lorem ipsum dolor sit amet.</b></p>
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre> The Anchor element creates a hyperlink to web pages, files, emailaddresses, locations in the same page, or anything else a URL can address.
+
+         target :
+         Where to display the linked URL, as the name for a browsing context (a tab, window).
+         The following keywords have special meanings for where to load the URL:
+
+         _self: the current browsing context.
+        _blank: usually a new tab, but users can configure browsers to open a new window instead.
+        _parent: the parent browsing context of the current one. If no parent, behaves as _self.
+        _top: the topmost browsing context (the "highest" context that's an ancestor of the current one). If no ancestors, behaves as _self. </pre>
+</h3>
+
+
+<a href="https://example.com" target="_blank">Website</a>
+<a href="mailto:m.bluth@example.com" target="_parent">Email</a>
+<a href="htts://wa.me/911234567890" target="_self">Phone</a>
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The button element is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology. 
+Once activated, it then performs an action, such as submitting a form or opening a dialog.
+
+Attributes:
+autofocus ,autocomplete ,disabled,formenctype,formmethod,formnovalidate,formtarget (similar to anchor target)
+type (submit, reset, button)
+</pre>
+</h3>
+<button type="button">Click Me!</button>
+<button type="submit">submit</button>
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The div element is the generic container for flow content. 
+It has no effect on the content or layout until styled in some way using CSS .</pre>
+</h3>
+<div class="warning" style="border: 1px solid red;">
+
+        <p>The
+                < div> element is a block-level element.
+        </p>
+</div>
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The input HTML element is used to create interactive controls for web-based forms in order to accept data from the user.
+        The available types are as follows: 
+        button,checkbox,date,email,file,number,radio</pre>
+</h3>
+<input type="checkbox"> Tick me <br>
+<input type="text"> Text me <br>
+<input type="datetime-local"> Text me <br>
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The img HTML element embeds an image into the document.</pre>
+</h3>
+<img src="https://source.unsplash.com/500x300/?random" alt="Alternative img source here">
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The List Item element is used to represent an item in a list. It must be contained in a parent element: an ordered list (< ol>), an unordered list (< ul>), 
+or a menu (< menu>). In menus and unordered lists, list items are usually displayed using bullet points.
+In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.</pre>
+</h3>
+
+<ol>
+        <li>ordered List</li>
+        <li>ordered List</li>
+        <li>ordered List</li>
+</ol>
+
+<ul>
+        <li>Unordered List</li>
+        <li>Unordered List</li>
+        <li>Unordered List</li>
+</ul>
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The External Resource Link element specifies relationships between the current document and an external resource. 
+This element is most commonly used to link to stylesheets.</pre>
+</h3>
+
+<link href="/media/examples/link-element-example.css" rel="stylesheet">
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The Label element represents a caption for an item in a user interface.</pre>
+</h3>
+
+<label>
+        Do you like peas?
+        <input type="checkbox" name="peas" />
+</label>
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The Content Span element is a generic inline container for phrasing content, which does not inherently represent anything. 
+It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang.
+It should be used only when no other semantic element is appropriate. span is very much like a div element</pre>
+</h3>
+
+<p>Add the <span style="color: red;">basil</span>, <span style="color: red;">pine nuts</span> and <span
+                style="color: red;">garlic</span> to a blender and blend into a paste.</p>
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The style  element contains style information for a document, or part of a document. 
+It contains CSS,which is applied to the contents of the document containing the style element.</pre>
+</h3>
+<style>
+        .description {
+                background: #fafaeb;
+        }
+
+        #p {
+                color: #26b72b;
+        }
+</style>
+
+<p id="p">This text will be green. Inline styles take precedence over CSS included externally.</p>
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The table element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.</pre>
+</h3>
+<style>
+        table,
+        td {
+                border: 1px solid #333;
+        }
+
+        thead,
+        tfoot {
+                background-color: #333;
+                color: #fff;
+        }
+</style>
+<table>
+        <thead>
+                <tr>
+                        <th>Header</th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr>
+                        <td>One </td>
+                        <td>Two </td>
+                </tr>
+        </tbody>
+</table>
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The textarea element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, 
+for example a comment on a review or feedback form.</pre>
+</h3>
+<textarea id="story" name="story" rows="5" cols="33">
+It was a dark and stormy night...
+</textarea>
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The video element embeds a media player which supports video playback into the document. You can use video for audio content as well, but the audio element may provide a more appropriate user experience.</pre>
+</h3>
+
+<video controls width="250">
+        <source src="/media/cc0-videos/flower.webm" type="video/webm">
+</video>
+
+
+<iframe width="250" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+_________________________________________________________________________________________________________________________________________________________________________
+<h3 class="description" style="color: chocolate;">
+        <pre>The Script element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code. 
+The script element can also be used with other languages, such as WebGL's GLSL shader programming language and JSON.</pre>
+</h3>
+<p id="demo"></p>
+
+<script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+
+</html>
