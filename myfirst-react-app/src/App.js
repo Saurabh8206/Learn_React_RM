@@ -1,19 +1,30 @@
-import logo from "./logo.svg";
 import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import ClassComponent from "./components/ClassComponent";
-import Welcome from "./components/Welcom";
+import MapExample from "./components/MapExample";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      {/* className="App" 
       <h1>Hello World</h1>
-
       <Welcome />
       <Contact />
       <About />
       <ClassComponent />
+      <User />
+      <EventDemo />
+      <StatesDemo />
+      <ClassStates /> 
+       <PropsComponent car={carInfo} location="Pune" age={24} name={"saurabh"} /> <InputProps /> 
+
+      <HideAndShow />
+      <FormRefresh />
+      <TernaryCondition />
+
+      <BasicFormValidation />
+      <PorpsInFunction />
+
+      <StylingComponent />*/}
+      <MapExample/>
     </div>
   );
 }
